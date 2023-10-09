@@ -1,0 +1,95 @@
+0. FRONTEND NOT CONNECTED TO BACKEND		--------------> RAJVIR/KRISHNA
+
+1. Frontend looks very bad
+	Add Bootstrap				--------------> Discussed Below
+	Add more Aesthetics
+
+	Need to add images of the books        	--------------> KRISHNA
+	
+
+2. Backend
+	Introduce relationships @ManyToOne and @OneToMany in the entities. 	--------------> KRISHNA/RAJVIR
+		
+
+
+THINGS WE WANT TO ADD
+
+1. JWT TOKEN (Create a (Remember Me) checkbox that will remember the token and your login for some time) --------------> AKASH
+	Backend - Creating the token in backend using Spring Security   (THURSDAY/FRIDAY)
+	Frontend - Accessing the token in React.js 
+
+2. Email Authentication (OTP for Forgot Password and Signing Up) 	--------------> DHIRAJ
+	Backend				(THURSDAY/FRIDAY)
+	Frontend
+	
+3. ADDING BOOTSTRAP
+	23 Original Components + 2-4 Added componenets for JWT and OTP 
+	Each Component needs Bootstrap@5 added and needs to look more aesthetic (like modern websites, use chatGPT)
+			
+		AddBook.js   
+		AdminIssuedBook.js
+		SearchByAuthor.js (Leave it for Last)
+		SearchByCategory.js (Leave it for last)     
+		AllBooks.js
+		Book.js
+		BookForAdmin.js
+						-----------------------> KRISHNA
+
+		IssuedForUser.js
+		IssueList.js  
+		MemberMenu.js
+		Menu.js
+		MenuList.js
+		MyList.js
+		Contact.js
+
+						-----------------------> DHIRAJ
+
+		Home.js
+		ShowBook.js
+		Signup.js
+		UpdateBook.js
+		ViewBooksForMember.js
+		Header.js
+						-----------------------> AKASH
+
+
+		Login.js 
+		LoginOption.js
+		MemberLogin.js
+ 			THESE ARE DEPENDENT ON THE JWT TOKEN AND OTP BEING CREATED 
+				-----------------------> RAJVIR (WILL ONLY HELP WITH THIS)
+
+
+3. CREATE THE BOOKS DATABASE (50 BOOKS)
+	EXAMPLE
+		{
+    		"bookId": 0,
+    		"isbnNo": 69,
+    		"name": "Mistborn",
+    		"author": "Brandon Sanderson",
+    		"publisher": "Penguin",
+    		"category": "Fantasy",
+    		"publishedDate": "2023-10-09"
+  		}
+
+		15 books each member
+		1-15 -----> DHIRAJ
+		16-30 -----> KRISHNA
+		31-45 ------> AKASH
+
+		NUMBER OF CATEGORIES < 11
+						LET'S FINISH OTHER THINGS FIRST
+
+4. TEXT 
+
+
+
+
+PLANS AFTER MONDAY
+	1. GET THE LOGIN PAGES MODIFIED
+	2. COMPILE THE WHOLE PROJECT TOGETHER
+	3. DEPLOYMENT
+	
+	
+
